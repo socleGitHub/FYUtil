@@ -26,11 +26,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6B7A065DEF2021B2FD01E169 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		728149F0938FCE63602BABE5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6B7A065DEF2021B2FD01E169 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		728149F0938FCE63602BABE5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8B1EFA731DDA2679FADE06AF /* Pods_FYUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYUtil_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2EF452CDD60A38A9A21FAA2 /* Pods-FYUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYUtil_Tests.release.xcconfig"; path = "Target Support Files/Pods-FYUtil_Tests/Pods-FYUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AF430077CC203E4790EB939D /* FYUtil.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FYUtil.podspec; path = ../FYUtil.podspec; sourceTree = "<group>"; };
+		AF430077CC203E4790EB939D /* FYUtil.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FYUtil.podspec; path = ../FYUtil.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,6 @@
 				078A2C4A2A6EDDCDBC1E60D3 /* Pods-FYUtil_Tests.debug.xcconfig */,
 				A2EF452CDD60A38A9A21FAA2 /* Pods-FYUtil_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -160,6 +159,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
