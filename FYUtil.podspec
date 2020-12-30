@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FYUtil'
   s.version          = '0.1.0'
-  s.summary          = 'A tool for iOS project by OC Language...'
+  s.summary          = 'FYUtil for iOS project can help us write code easily! '
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '154485601@qq.com' => 'zjx944837781@126.com' }
-  s.source           = { :git => 'https://github.com/154485601@qq.com/FYUtil.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/socleGitHub/FYUtil.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
