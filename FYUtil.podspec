@@ -19,9 +19,10 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
                         A tool for iOS project by OC Language...
+                        FYUtil for iOS project can help us write code easily!
                        DESC
 
-  s.homepage         = 'https://github.com/154485601@qq.com/FYUtil'
+  s.homepage         = 'https://github.com/socleGitHub/FYUtil'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '154485601@qq.com' => 'zjx944837781@126.com' }
