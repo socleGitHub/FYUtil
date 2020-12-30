@@ -7,12 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11485E75FF53C42024237C5D10786233 /* UILabel+FYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE5B274AA0F318F00DB6F6A22325050 /* UILabel+FYLabel.m */; };
+		1DD539401A5C30B547C9F884E32D1CA8 /* UIAlertController+FYAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 96A8BAD2ABE925B6C48179E8282620F0 /* UIAlertController+FYAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FC8BC271ED6BDC0BA9A23BC835AF2D9 /* Pods-FYUtil_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A60C67C5951ED0E7D07E147B9785CB0 /* Pods-FYUtil_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3BE8028E58A16D7C4063DB6F75FC36D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2CBEFA617C67F832DAD57D5E3B1EF036 /* FYUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4691978266A3A0F1F3184DC5BFC32CC7 /* FYUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FC0A5DC610F28AA8D75C53B1E0AB220 /* UITextField+FYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD84CD0E46C05D7370964D7B7E56F55 /* UITextField+FYTextField.m */; };
+		3CA7B853DFEEF96C4C2E702D5655DCA4 /* HeaderDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 273452ABA02E8EB9CA5D4304E4BB3615 /* HeaderDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49028CFBFC622AE4AB647FFA432B8014 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		80502F4DEB4C2AC96566CEA74DE98E72 /* FYUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBCA0A67DCADE406DC09962AED1D9C66 /* FYUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B152E66E1082E6C30E1B65A70AFB16C /* UIView+FYView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9293863B9852558D349BC80A48C7ED /* UIView+FYView.m */; };
+		67341AA0D38C7902FE1929DC07B43F21 /* UIView+FYView.h in Headers */ = {isa = PBXBuildFile; fileRef = AFCE1C93DC76148A97AC0FF6E5470FD6 /* UIView+FYView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		810C79A36BAC7ACB04021601B01FC32A /* UIButton+FyCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B3FA34154EE3EF0E271DE0C69FD8D7 /* UIButton+FyCreate.m */; };
+		96EAA7AB028227BB72D60D2C3F0AECF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A78157A51861939C8362528903D98C92 /* UIButton+FyCreate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EB03C99C2AB4CB44A2A0659E85653C8 /* UIButton+FyCreate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF19886851B1E0A1684A6D4A13FFB85C /* FYUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FB25896F76E4F73772440E39E182C0 /* FYUtil-dummy.m */; };
+		BA36591ADBDED3CDC3946D75895DF77B /* UIAlertController+FYAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = B310F35165B4DDC438B0BD5153654435 /* UIAlertController+FYAlertController.m */; };
+		BF51EF7B18699B630283AB0B8933F4AD /* UIImageView+FYImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1B661A8CAA0A99BED630EA0AC71DD /* UIImageView+FYImageView.m */; };
+		C8B5ECA66BFE7B7238B12D4BBCEFC1ED /* UIImageView+FYImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4AB5872B48175B19F4C0A3C9836B4E /* UIImageView+FYImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3166C7DF22C7BBB215A43ED73416214 /* FYUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A727FB37E6DFCA896870A596A819C32 /* FYUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E386473D9EF75379D816109AD4160AA5 /* UITextField+FYTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = DA6FFF7641B05DE88FA28C0B930A6C65 /* UITextField+FYTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E43F6BDF2669E7B5BAFD0204C495563B /* UIButton+FYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B466F429D390FAF7325316CEB26B1FF4 /* UIButton+FYButton.m */; };
 		E5569A6868F8BC28CED4B860B4449296 /* Pods-FYUtil_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E36514ED850E501ED68734BC99A2A0 /* Pods-FYUtil_Tests-dummy.m */; };
-		F39DF8E3E6E47625D760C1935459E354 /* FYUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C3ECA04B8C702332B7B3306116909C /* FYUtil-dummy.m */; };
+		F23D540E3A59730D9CACEC07F20A684C /* UILabel+FYLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = C7006DE29A52619BA1117331E81895E2 /* UILabel+FYLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3381BADAAAE159F2211399C3714720E /* FYMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = A74A9FC63D2350670E9663FD9ADEB280 /* FYMethod.m */; };
+		F41D37614ECEF0E322B3AEDFC22AA610 /* FYMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 51354FB84EA37E51C8B28D620608DB2C /* FYMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFAA770DD00F082BE64C9F8A1B057F6 /* UIButton+FYButton.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8019078293B11B077DC381FC2CD026 /* UIButton+FYButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,32 +44,58 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0180A7DFFF1080A74A364E8304C99F90 /* FYUtil-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FYUtil-Info.plist"; sourceTree = "<group>"; };
+		05FB25896F76E4F73772440E39E182C0 /* FYUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FYUtil-dummy.m"; sourceTree = "<group>"; };
+		0EB03C99C2AB4CB44A2A0659E85653C8 /* UIButton+FyCreate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+FyCreate.h"; path = "FYUtil/Classes/UIButton+FyCreate.h"; sourceTree = "<group>"; };
+		12B789B652E1BB3A740F86DDAAB4E227 /* FYUtil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYUtil.debug.xcconfig; sourceTree = "<group>"; };
+		1C9293863B9852558D349BC80A48C7ED /* UIView+FYView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FYView.m"; path = "FYUtil/Classes/UIView+FYView.m"; sourceTree = "<group>"; };
+		208F5B7DDCF14AC2D505F65670C58D13 /* FYUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FYUtil.modulemap; sourceTree = "<group>"; };
 		255717401B60B9AF18EDD23C66B4EB2C /* Pods-FYUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		30916234762FC334745796750301C580 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		273452ABA02E8EB9CA5D4304E4BB3615 /* HeaderDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeaderDefine.h; path = FYUtil/Classes/HeaderDefine.h; sourceTree = "<group>"; };
+		2BA2C4B33194FC659B6D0075B8457210 /* FYUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYUtil-prefix.pch"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		344712E93B5DE4F1D56C2E1B750F0CF8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		44925CC2B4EE4143659359D8B660B0B5 /* Pods_FYUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYUtil_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		53F7EBE5FAF236ACEB878C08F964A882 /* FYUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYUtil-prefix.pch"; sourceTree = "<group>"; };
+		44925CC2B4EE4143659359D8B660B0B5 /* Pods_FYUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FYUtil_Tests.framework; path = "Pods-FYUtil_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4691978266A3A0F1F3184DC5BFC32CC7 /* FYUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYUtil.h; path = FYUtil/Classes/FYUtil.h; sourceTree = "<group>"; };
+		4AE1B661A8CAA0A99BED630EA0AC71DD /* UIImageView+FYImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+FYImageView.m"; path = "FYUtil/Classes/UIImageView+FYImageView.m"; sourceTree = "<group>"; };
+		51354FB84EA37E51C8B28D620608DB2C /* FYMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYMethod.h; path = FYUtil/Classes/FYMethod.h; sourceTree = "<group>"; };
 		5DF88972E94BA3570E3B78018FC22C08 /* Pods-FYUtil_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FYUtil_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		77FC926EC98017AA27384F11FACF74C9 /* Pods-FYUtil_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYUtil_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7A60C67C5951ED0E7D07E147B9785CB0 /* Pods-FYUtil_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FYUtil_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7DD4F4E15DAB9A710F3C6227D0F28AB2 /* FYUtil-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FYUtil-Info.plist"; sourceTree = "<group>"; };
-		81C3ECA04B8C702332B7B3306116909C /* FYUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FYUtil-dummy.m"; sourceTree = "<group>"; };
-		99CEDB8195B461BC94DF09121C436776 /* FYUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FYUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AE3E6D22BEB2490281F23E641C44AE3A /* FYUtil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYUtil.release.xcconfig; sourceTree = "<group>"; };
+		7A727FB37E6DFCA896870A596A819C32 /* FYUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYUtil-umbrella.h"; sourceTree = "<group>"; };
+		7C4AB5872B48175B19F4C0A3C9836B4E /* UIImageView+FYImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+FYImageView.h"; path = "FYUtil/Classes/UIImageView+FYImageView.h"; sourceTree = "<group>"; };
+		96A8BAD2ABE925B6C48179E8282620F0 /* UIAlertController+FYAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertController+FYAlertController.h"; path = "FYUtil/Classes/UIAlertController+FYAlertController.h"; sourceTree = "<group>"; };
+		99CEDB8195B461BC94DF09121C436776 /* FYUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FYUtil.framework; path = FYUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A74A9FC63D2350670E9663FD9ADEB280 /* FYMethod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FYMethod.m; path = FYUtil/Classes/FYMethod.m; sourceTree = "<group>"; };
+		AFCE1C93DC76148A97AC0FF6E5470FD6 /* UIView+FYView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FYView.h"; path = "FYUtil/Classes/UIView+FYView.h"; sourceTree = "<group>"; };
+		B310F35165B4DDC438B0BD5153654435 /* UIAlertController+FYAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertController+FYAlertController.m"; path = "FYUtil/Classes/UIAlertController+FYAlertController.m"; sourceTree = "<group>"; };
+		B466F429D390FAF7325316CEB26B1FF4 /* UIButton+FYButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+FYButton.m"; path = "FYUtil/Classes/UIButton+FYButton.m"; sourceTree = "<group>"; };
 		BB00D9780CCA26CE286C7A715786689F /* Pods-FYUtil_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FYUtil_Tests.modulemap"; sourceTree = "<group>"; };
+		BCE5B274AA0F318F00DB6F6A22325050 /* UILabel+FYLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+FYLabel.m"; path = "FYUtil/Classes/UILabel+FYLabel.m"; sourceTree = "<group>"; };
+		BFFD0CDDA31BAD072054A8A7D26C1D64 /* FYUtil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYUtil.release.xcconfig; sourceTree = "<group>"; };
 		C011C9CC41BD835378D2C67C4A1FCDED /* Pods-FYUtil_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYUtil_Tests-Info.plist"; sourceTree = "<group>"; };
-		CBCA0A67DCADE406DC09962AED1D9C66 /* FYUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYUtil-umbrella.h"; sourceTree = "<group>"; };
-		D1917AF836186EFB8E2BFC55EE806364 /* FYUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FYUtil.modulemap; sourceTree = "<group>"; };
+		C7006DE29A52619BA1117331E81895E2 /* UILabel+FYLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+FYLabel.h"; path = "FYUtil/Classes/UILabel+FYLabel.h"; sourceTree = "<group>"; };
+		D4A617681FC952BBF0D1A01643770F83 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D6B3FA34154EE3EF0E271DE0C69FD8D7 /* UIButton+FyCreate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+FyCreate.m"; path = "FYUtil/Classes/UIButton+FyCreate.m"; sourceTree = "<group>"; };
+		DA6FFF7641B05DE88FA28C0B930A6C65 /* UITextField+FYTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+FYTextField.h"; path = "FYUtil/Classes/UITextField+FYTextField.h"; sourceTree = "<group>"; };
+		DD8019078293B11B077DC381FC2CD026 /* UIButton+FYButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+FYButton.h"; path = "FYUtil/Classes/UIButton+FYButton.h"; sourceTree = "<group>"; };
+		E7DC5EDCB3BCFFB860FD220CD7C6EC61 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E8E36514ED850E501ED68734BC99A2A0 /* Pods-FYUtil_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FYUtil_Tests-dummy.m"; sourceTree = "<group>"; };
 		EA7D713797E2FEF20E5ED0C31F1524BE /* Pods-FYUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EE97B593954C06A969BEE898ADBF5145 /* Pods-FYUtil_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FYUtil_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F3F7EE1696736AF36B7B4B18AF6B8B75 /* FYUtil.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FYUtil.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		FACDC761D8B97738F3121CD4B9D73465 /* FYUtil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYUtil.debug.xcconfig; sourceTree = "<group>"; };
+		FCD84CD0E46C05D7370964D7B7E56F55 /* UITextField+FYTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+FYTextField.m"; path = "FYUtil/Classes/UITextField+FYTextField.m"; sourceTree = "<group>"; };
+		FCF4FDAFB12EF5DF57BEECBC25A31F64 /* FYUtil.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FYUtil.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0211762F5D1FA0D01CB829455A27AA4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96EAA7AB028227BB72D60D2C3F0AECF0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0B4135C7C628C0A9E4B2D00716E5BB29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -60,43 +104,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		975AE4244B0FD90FB0B38BD042402E22 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3BE8028E58A16D7C4063DB6F75FC36D8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04F87B13FCF891D3D40FB8F5C958B3CF /* Development Pods */ = {
+		5167E9DF5AD871F6E9395162B07854C0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				4BEE9ACAF4A9F66FD203AE31C8EB4167 /* FYUtil */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		0E546B64449EE5EAD0065758C0002A9B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F3F7EE1696736AF36B7B4B18AF6B8B75 /* FYUtil.podspec */,
-				344712E93B5DE4F1D56C2E1B750F0CF8 /* LICENSE */,
-				30916234762FC334745796750301C580 /* README.md */,
+				FCF4FDAFB12EF5DF57BEECBC25A31F64 /* FYUtil.podspec */,
+				D4A617681FC952BBF0D1A01643770F83 /* LICENSE */,
+				E7DC5EDCB3BCFFB860FD220CD7C6EC61 /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		4BEE9ACAF4A9F66FD203AE31C8EB4167 /* FYUtil */ = {
-			isa = PBXGroup;
-			children = (
-				0E546B64449EE5EAD0065758C0002A9B /* Pod */,
-				D90F234D6D57BDDE6064AEBEEFB81BC2 /* Support Files */,
-			);
-			name = FYUtil;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		5E59D4F89A36C1A63F17610765B7EEE6 /* Pods-FYUtil_Tests */ = {
@@ -114,6 +132,21 @@
 			);
 			name = "Pods-FYUtil_Tests";
 			path = "Target Support Files/Pods-FYUtil_Tests";
+			sourceTree = "<group>";
+		};
+		803B30A4150EFD50FCC2A16EBD726D58 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				208F5B7DDCF14AC2D505F65670C58D13 /* FYUtil.modulemap */,
+				05FB25896F76E4F73772440E39E182C0 /* FYUtil-dummy.m */,
+				0180A7DFFF1080A74A364E8304C99F90 /* FYUtil-Info.plist */,
+				2BA2C4B33194FC659B6D0075B8457210 /* FYUtil-prefix.pch */,
+				7A727FB37E6DFCA896870A596A819C32 /* FYUtil-umbrella.h */,
+				12B789B652E1BB3A740F86DDAAB4E227 /* FYUtil.debug.xcconfig */,
+				BFFD0CDDA31BAD072054A8A7D26C1D64 /* FYUtil.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FYUtil";
 			sourceTree = "<group>";
 		};
 		A8BD394BF09D44E529EEF0D120930E28 /* Targets Support Files */ = {
@@ -136,7 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				04F87B13FCF891D3D40FB8F5C958B3CF /* Development Pods */,
+				E30F2EAA377C4658156A52B068185130 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				E8F4401220F98147C634FDBF3D236122 /* Products */,
 				A8BD394BF09D44E529EEF0D120930E28 /* Targets Support Files */,
@@ -151,19 +184,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D90F234D6D57BDDE6064AEBEEFB81BC2 /* Support Files */ = {
+		E30F2EAA377C4658156A52B068185130 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D1917AF836186EFB8E2BFC55EE806364 /* FYUtil.modulemap */,
-				81C3ECA04B8C702332B7B3306116909C /* FYUtil-dummy.m */,
-				7DD4F4E15DAB9A710F3C6227D0F28AB2 /* FYUtil-Info.plist */,
-				53F7EBE5FAF236ACEB878C08F964A882 /* FYUtil-prefix.pch */,
-				CBCA0A67DCADE406DC09962AED1D9C66 /* FYUtil-umbrella.h */,
-				FACDC761D8B97738F3121CD4B9D73465 /* FYUtil.debug.xcconfig */,
-				AE3E6D22BEB2490281F23E641C44AE3A /* FYUtil.release.xcconfig */,
+				F630B45DF08BF205CB44F129C7A8597F /* FYUtil */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FYUtil";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		E8F4401220F98147C634FDBF3D236122 /* Products */ = {
@@ -175,22 +201,60 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		F630B45DF08BF205CB44F129C7A8597F /* FYUtil */ = {
+			isa = PBXGroup;
+			children = (
+				51354FB84EA37E51C8B28D620608DB2C /* FYMethod.h */,
+				A74A9FC63D2350670E9663FD9ADEB280 /* FYMethod.m */,
+				4691978266A3A0F1F3184DC5BFC32CC7 /* FYUtil.h */,
+				273452ABA02E8EB9CA5D4304E4BB3615 /* HeaderDefine.h */,
+				96A8BAD2ABE925B6C48179E8282620F0 /* UIAlertController+FYAlertController.h */,
+				B310F35165B4DDC438B0BD5153654435 /* UIAlertController+FYAlertController.m */,
+				DD8019078293B11B077DC381FC2CD026 /* UIButton+FYButton.h */,
+				B466F429D390FAF7325316CEB26B1FF4 /* UIButton+FYButton.m */,
+				0EB03C99C2AB4CB44A2A0659E85653C8 /* UIButton+FyCreate.h */,
+				D6B3FA34154EE3EF0E271DE0C69FD8D7 /* UIButton+FyCreate.m */,
+				7C4AB5872B48175B19F4C0A3C9836B4E /* UIImageView+FYImageView.h */,
+				4AE1B661A8CAA0A99BED630EA0AC71DD /* UIImageView+FYImageView.m */,
+				C7006DE29A52619BA1117331E81895E2 /* UILabel+FYLabel.h */,
+				BCE5B274AA0F318F00DB6F6A22325050 /* UILabel+FYLabel.m */,
+				DA6FFF7641B05DE88FA28C0B930A6C65 /* UITextField+FYTextField.h */,
+				FCD84CD0E46C05D7370964D7B7E56F55 /* UITextField+FYTextField.m */,
+				AFCE1C93DC76148A97AC0FF6E5470FD6 /* UIView+FYView.h */,
+				1C9293863B9852558D349BC80A48C7ED /* UIView+FYView.m */,
+				5167E9DF5AD871F6E9395162B07854C0 /* Pod */,
+				803B30A4150EFD50FCC2A16EBD726D58 /* Support Files */,
+			);
+			name = FYUtil;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		130F05C98DC8B0E41338C1303F5E6080 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41D37614ECEF0E322B3AEDFC22AA610 /* FYMethod.h in Headers */,
+				D3166C7DF22C7BBB215A43ED73416214 /* FYUtil-umbrella.h in Headers */,
+				2CBEFA617C67F832DAD57D5E3B1EF036 /* FYUtil.h in Headers */,
+				3CA7B853DFEEF96C4C2E702D5655DCA4 /* HeaderDefine.h in Headers */,
+				1DD539401A5C30B547C9F884E32D1CA8 /* UIAlertController+FYAlertController.h in Headers */,
+				FFFAA770DD00F082BE64C9F8A1B057F6 /* UIButton+FYButton.h in Headers */,
+				A78157A51861939C8362528903D98C92 /* UIButton+FyCreate.h in Headers */,
+				C8B5ECA66BFE7B7238B12D4BBCEFC1ED /* UIImageView+FYImageView.h in Headers */,
+				F23D540E3A59730D9CACEC07F20A684C /* UILabel+FYLabel.h in Headers */,
+				E386473D9EF75379D816109AD4160AA5 /* UITextField+FYTextField.h in Headers */,
+				67341AA0D38C7902FE1929DC07B43F21 /* UIView+FYView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1F959DE3490516AEABC46BAC25FA1976 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1FC8BC271ED6BDC0BA9A23BC835AF2D9 /* Pods-FYUtil_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7A71E46CE23359D057FDAD08DC04A3C0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80502F4DEB4C2AC96566CEA74DE98E72 /* FYUtil-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,12 +282,12 @@
 		};
 		941DD96E0FAD16D32B548A1EE171B821 /* FYUtil */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CC83E1C2C091436C0E49DCA2081D3A4 /* Build configuration list for PBXNativeTarget "FYUtil" */;
+			buildConfigurationList = F19639BD7DFB04FE667D43F6385DDBA7 /* Build configuration list for PBXNativeTarget "FYUtil" */;
 			buildPhases = (
-				7A71E46CE23359D057FDAD08DC04A3C0 /* Headers */,
-				AF223A93986147B24AF0BA40613F48E5 /* Sources */,
-				975AE4244B0FD90FB0B38BD042402E22 /* Frameworks */,
-				51A753855016444B8A81D6341EB4FCDB /* Resources */,
+				130F05C98DC8B0E41338C1303F5E6080 /* Headers */,
+				4F8F254E1B721CDDFD625191F7FB2725 /* Sources */,
+				0211762F5D1FA0D01CB829455A27AA4B /* Frameworks */,
+				1AF3F8B922839C5910057F4A724B9BCC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -263,7 +327,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		51A753855016444B8A81D6341EB4FCDB /* Resources */ = {
+		1AF3F8B922839C5910057F4A724B9BCC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -288,11 +352,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF223A93986147B24AF0BA40613F48E5 /* Sources */ = {
+		4F8F254E1B721CDDFD625191F7FB2725 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F39DF8E3E6E47625D760C1935459E354 /* FYUtil-dummy.m in Sources */,
+				F3381BADAAAE159F2211399C3714720E /* FYMethod.m in Sources */,
+				AF19886851B1E0A1684A6D4A13FFB85C /* FYUtil-dummy.m in Sources */,
+				BA36591ADBDED3CDC3946D75895DF77B /* UIAlertController+FYAlertController.m in Sources */,
+				E43F6BDF2669E7B5BAFD0204C495563B /* UIButton+FYButton.m in Sources */,
+				810C79A36BAC7ACB04021601B01FC32A /* UIButton+FyCreate.m in Sources */,
+				BF51EF7B18699B630283AB0B8933F4AD /* UIImageView+FYImageView.m in Sources */,
+				11485E75FF53C42024237C5D10786233 /* UILabel+FYLabel.m in Sources */,
+				2FC0A5DC610F28AA8D75C53B1E0AB220 /* UITextField+FYTextField.m in Sources */,
+				5B152E66E1082E6C30E1B65A70AFB16C /* UIView+FYView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,41 +380,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		76A3198CDE5AEA243A1D118E35E7E0F1 /* Release */ = {
+		945A3A2E5C1D3648C68EBACC2119C235 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE3E6D22BEB2490281F23E641C44AE3A /* FYUtil.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FYUtil/FYUtil-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FYUtil/FYUtil-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FYUtil/FYUtil.modulemap";
-				PRODUCT_MODULE_NAME = FYUtil;
-				PRODUCT_NAME = FYUtil;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		78D9971F709575851263DDF6CB9A394A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FACDC761D8B97738F3121CD4B9D73465 /* FYUtil.debug.xcconfig */;
+			baseConfigurationReference = 12B789B652E1BB3A740F86DDAAB4E227 /* FYUtil.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -424,7 +464,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -561,18 +602,41 @@
 			};
 			name = Release;
 		};
+		E4C5ADB99C695B710F4DADDF2C0949AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFFD0CDDA31BAD072054A8A7D26C1D64 /* FYUtil.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FYUtil/FYUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FYUtil/FYUtil-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FYUtil/FYUtil.modulemap";
+				PRODUCT_MODULE_NAME = FYUtil;
+				PRODUCT_NAME = FYUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2CC83E1C2C091436C0E49DCA2081D3A4 /* Build configuration list for PBXNativeTarget "FYUtil" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				78D9971F709575851263DDF6CB9A394A /* Debug */,
-				76A3198CDE5AEA243A1D118E35E7E0F1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -587,6 +651,15 @@
 			buildConfigurations = (
 				C2FD01E404008573747A2CC7B63C5C3B /* Debug */,
 				E04FADA86906FFFA4C944E63B0EC06F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F19639BD7DFB04FE667D43F6385DDBA7 /* Build configuration list for PBXNativeTarget "FYUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945A3A2E5C1D3648C68EBACC2119C235 /* Debug */,
+				E4C5ADB99C695B710F4DADDF2C0949AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
