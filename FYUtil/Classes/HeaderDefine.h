@@ -10,8 +10,7 @@
 #define HeaderDefine_h
 
 
-#define     VZ_DEBUG                TARGET_IPHONE_SIMULATOR
-#define     CA_CONTROLL             TARGET_IPHONE_SIMULATOR
+#define     FY_SIMULATOR            TARGET_IPHONE_SIMULATOR
 
 #pragma mark - 1.屏幕宽度与高度
 #define     APP_SCR_W               [UIScreen mainScreen].bounds.size.width
