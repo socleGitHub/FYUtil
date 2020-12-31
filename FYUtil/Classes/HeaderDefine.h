@@ -53,12 +53,20 @@
 
 #pragma mark - 7.判断是否存在
 #define NSStringFYExistFlag(value)          (value && [value isKindOfClass:[NSString class]] && [value length])
-#define UIFontFYExistFlag(value)            (value && [value isKindOfClass:[UIFont class]])
+#define NSStringFYExistLen(value, len)      (value && [value isKindOfClass:[NSString class]] && [value length] == len)
+#define NSStringFYExistEqual(value, equalString)          (value && [value isKindOfClass:[NSString class]] && [value isEqualToString:equalString])
+#define NSStringFYConvert(value)            ([NSString stringWithFormat:@"%@", value])
+
+#define UIFontFYExistFlag(value)            (value && [value isKindOfClass:[UIFont class]] && value.pointSize > 0)
 #define NSDataFYExistFlag(value)            (value && [value isKindOfClass:[NSData class]] && [value length])
 #define UIColorFYExistFlag(value)           (value && [value isKindOfClass:[UIColor class]])
 #define UIImageFYExistFlag(value)           (value && [value isKindOfClass:[UIImage class]])
-#define NSDictionaryFYExistFlag(dict)       (dict  && [dict isKindOfClass:[NSDictionary class]] && [dict count])
+
+#define NSDictionaryFYExistFlag(dict)       (dict && [dict isKindOfClass:[NSDictionary class]] && [dict count])
+#define NSDictionaryFYExistNum(dict, num)   (dict && [dict isKindOfClass:[NSDictionary class]] && ([dict count] == num))
+
 #define NSArrayFYExistFlag(array)           (array && [array isKindOfClass:[NSArray class]] && [array count])
+#define NSArrayFYExistNum(array, num)       (array && [array isKindOfClass:[NSArray class]] && ([array count] == num))
 
 
 ///主线程
